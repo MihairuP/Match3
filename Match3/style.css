@@ -1,0 +1,28 @@
+#gameField {
+    border: 2px dashed red;
+}
+
+#scorePanel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#scorePanel>* {
+    margin: 15px;
+}
+
+#settings>* {
+    opacity: 0;
+    height: 15px;
+}
+
+#settings:hover>* {
+    transition: 2s;
+    opacity: 1;
+}
+
+#settings>p {
+    color: darkgrey;
+    opacity: 0.5;
+}
