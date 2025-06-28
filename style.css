@@ -1,0 +1,32 @@
+#gameField {
+    border: 3px dashed blue;
+}
+
+#scorePanel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#scorePanel > * {
+    margin: 15px;
+}
+
+#settings > * {
+    opacity: 0;
+    height: 15px;
+}
+
+#settings:hover > * {
+    transition: 2s;
+    opacity: 1;
+}
+
+#settings > p {
+    color: darkgrey;
+    opacity: 0.5;
+}
+#zenModeBtn {
+    height: 30px;
+    border-radius: 10px;
+}

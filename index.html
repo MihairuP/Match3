@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <canvas id="gameField"></canvas>
+    <div id="scorePanel">
+        <p>Score:</p>
+        <span id="score">0</span>
+        <progress id="scoreMultipierBar" max="100" value="70"> 70% </progress>
+
+    </div>
+
+    <div id="settings">
+        <p>settings</p>
+        <label for="color">Color scheme:</label>
+        <input type="range" id="colorPick" value="0">
+        <br>
+        <input type="button" id="zenModeBtn" value="Zen mode">
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
